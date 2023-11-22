@@ -14,7 +14,7 @@ const Featured = () => {
 
         <div className="h-[900px]  md:h-[400px] xl:h-[532px] flex flex-col md:flex-row gap-8 border">
             <div className="w-full md:w-[60%] relative h-1/2 md:h-full rounded-[10px]">
-            <Image src={'/grid-1.svg'}  height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
+            <Image src={'/grid-1.svg'} alt="Little girls" height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
             
             <div className="flex flex-col justify-between p-4 lg:p-8 h-full">
                 <div className="flex justify-between">
@@ -31,7 +31,7 @@ const Featured = () => {
             </div>
             <div className="w-full md:w-[40%] flex flex-col gap-6  lg:gap-8 h-full">
                 <div className="h-1/2 relative  rounded-[10px]">
-                <Image src={'/grid-2.svg'}  height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
+                <Image src={'/grid-2.svg'}  alt="Kids Swimming" height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
                 <div className="flex flex-col justify-center p-6 text-[#FFFFFF] h-full gap-6 ">
                     <button className="uppercase text-[12px] font-semibold self-start bg-[#F56630] rounded-full text-sm py-1 px-3 ">Up to 89% off</button>
                     <p className=" text-2xl lg:text-[28px] font-semibold max-w-full  lg:max-w-[80%] xl:max-w-[60%] leading-8">Children Summer Play set</p>
@@ -40,7 +40,7 @@ const Featured = () => {
 
                 </div>
                 <div className="h-1/2 relative  rounded-[10px] ">
-                <Image src={'/grid-3.svg'}  height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
+                <Image src={'/grid-3.svg'}  alt="Shoe" height={200}  width={200} className="absolute z-[-1] w-full h-full object-cover top-0 rounded-[10px]"/>
                     
                 </div>
             </div>

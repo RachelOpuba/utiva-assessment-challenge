@@ -23,8 +23,8 @@ const Footer = () => {
                 <div className="flex flex-col justify-between">
                     <p  className="text-[#333333] font-bold">Company</p>
                     <div>{CompanyArr.map((link, index)=>(
-                        <div className="flex flex-col gap-[15px]">
-                            <Link href={link.href} key={index} className="text[#4F4F4F] mt-2">{link.title}</Link>
+                        <div key={index} className="flex flex-col gap-[15px]">
+                            <Link href={link.href}  className="text[#4F4F4F] mt-2">{link.title}</Link>
                         </div>
                     ))}</div>
                 </div>

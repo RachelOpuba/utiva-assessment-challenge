@@ -58,30 +58,30 @@ export default function  Navbar () {
     <>
         <header className="h-[112px] px-8 lg:px-[40px] xl:px-[112px] w-screen max-w-[1440px] flex justify-between items-center border">
             <div>
-                <Image src={'/logo.svg'} height={40} width={40}/>
+                <Image src={'/logo.svg'} height={40} width={40} alt="Logo"/>
             </div>
             <div className="hidden md:flex  gap-4 xl:gap-8 items-center h-full ">
                 <div className="bg-[#F0F2F5] w-[80%] md:w-[300px] xl:w-[375px] h-[36px] py-2 px-3 rounded-[6px] flex gap-1">
-                    <Image src={'/search.svg'} height={16} width={16} alt="Search Icon"/>
+                    <Image src={'/search.svg'}  height={16} width={16} alt="Search Icon"/>
                     <input type="text" placeholder="Search here..." className="w-full h-full bg-[#F0F2F5] text-sm outline-none placeholder:text-[#98A2B3]"/>
                 </div>
                 <div className=" hidden md:flex flex-col items-center justify-between h-full py-6">
-                    <Image src={'/heart.svg'} height={18} width={18}/>
+                    <Image src={'/heart.svg'} height={18} width={18} alt="Heart"/>
                     <div className="flex gap-2 justify-center items-center">
                         <Link href="/" className="font-semibold text-[#101928]">All Categories</Link>
-                        <Image src={'/red-arrow-down.svg'} height={15} width={15}/>
+                        <Image src={'/red-arrow-down.svg'} height={15} width={15} alt="Arrow Doen"/>
                     </div>
 
                 </div>
                 <div className="hidden md:flex flex-col items-center justify-between h-full py-6">
-                <Image src={'/cart.svg'} height={18} width={18}/>
+                <Image src={'/cart.svg'} height={18} width={18} alt="Cart"/>
                     <div className="flex gap-2 justify-center items-center">
                         <Link href="/" className="font-semibold text-[#101928]">Cart</Link>
                         
                     </div>
                 </div>
                 <div className="hidden md:flex flex-col items-center justify-between h-full py-6">
-                <Image src={'/user.svg'} height={18} width={18}/>
+                <Image src={'/user.svg'} height={18} width={18} alt="User"/>
                     <div className="flex gap-2 justify-center items-center">
                         <Link href="/" className="font-semibold text-[#101928]">Profile</Link>
                         
