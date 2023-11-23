@@ -11,7 +11,7 @@ import Products from "@/app/ui/Products"
 import { FiPlus } from "react-icons/fi";
 
 
-// cont sizes = []
+
 
 const Page = ({params}) => {
     const [selectedSize, setSelectedSize] = useState('37');

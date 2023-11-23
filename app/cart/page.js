@@ -47,7 +47,7 @@ const Page = () => {
                     <p className="text-[#667185]">Subtotal:</p>
                     <p className="flex items-center text-[#101928] "><span className="text-[11px]">₦</span> <span className="text-lg font-semibold">28,499</span><span className="text-[11px]">.97</span></p>
                 </div>
-                <Link href="/checkout" className="text-[#FFFFFF] bg-[#EB5017] w-full py-4 px-6 my-4 flex justify-center items-center font-semibold rounded-full">Checkout</Link>
+                <Link href="/cart/checkout" className="text-[#FFFFFF] bg-[#EB5017] w-full py-4 px-6 my-4 flex justify-center items-center font-semibold rounded-full">Checkout</Link>
 
 
             </div>
