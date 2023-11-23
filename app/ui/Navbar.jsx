@@ -8,7 +8,7 @@ import {motion, useCycle, AnimatePresence} from "framer-motion"
 
 
 const links = [
-    { name: 'All Categories', href: '/'},  
+    { name: 'All Categories', href: '/allproducts'},  
     { name: 'Cart', href: '/' },
     { name: 'Profile', href: '/'},
     

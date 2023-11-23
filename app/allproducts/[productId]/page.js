@@ -32,7 +32,7 @@ const page = ({params}) => {
                         {ProductArr2.filter((product) => product.id == productid)
                         .map((info, index)=>(
                             <div key={index} className="grid grid-cols-1 md:grid-cols-2">
-                                <div className="pe-0 lg:pe-6 max-w-[548px] border border-red-500 relative max-h-[620px]">
+                                <div className="pe-0 lg:pe-6 max-w-[548px]  relative max-h-[620px]">
                                     <Image src={info.href} height={500} width={500} alt="shoe"  className="h-[505px] w-[548px] rounded-[10px]"/>
                                     <div className=" hidden lg:grid grid-cols-4 w-full gap-4 absolute bottom-0 pe-6">
                                         <Image src={info.href} height={60} width={60} alt="shoe" className="h-[120px] w-full rounded-[10px]"/>
@@ -41,7 +41,7 @@ const page = ({params}) => {
                                         <Image src={info.href} height={60} width={60} alt="shoe" className="h-[120px] w-full rounded-[10px]"/>
                                     </div>
                                 </div>
-                                <div>
+                                <div className="mt-[-30px] md:mt-0">
                                     <h2 className="text-[#101928] font-semibold text-[32px]">Nike Blazer Low ‘77 Vintage</h2>
                                     <p className="text-[#667185] text-sm py-2">Praised by the streets for its classic simplicity and comfort, the Nike Blazer Low '77 Vintage returns with its low-profile style and heritage b-ball looks.</p>
                                     <span className="flex items-center gap-4"><StarRating/> <span className="text-sm font-medium text-[#344054]">(121)</span></span>
@@ -94,7 +94,7 @@ const page = ({params}) => {
                                            </div>
 
                                                  <div className=" flex flex-col md:flex-row items-center md:items-start gap-6 py-6">
-                                                    <Link href="/" className="text-[#FFFFFF] bg-[#EB5017] w-[194px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Buy Now</Link>
+                                                    <Link href="/cart" className="text-[#FFFFFF] bg-[#EB5017] w-[194px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Buy Now</Link>
                                                     <Link href="/" className=" text-[#F56630] border-[#EB5017] w-[194px] border-[1.5px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Add to Cart</Link>
                                                 </div>
 

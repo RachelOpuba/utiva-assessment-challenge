@@ -138,3 +138,32 @@ export const CompanyArr = [
     
   ];
 
+  export const CartArr = [
+    {
+      title: "Luka 2 Basketball Shoes",
+      href: "/shoe-1.svg",
+      price: 9499,
+      desc: ' Black',
+      size: 41
+
+      
+    },
+    {
+        title: "Nike Air Max 97 SE",
+        href: "/shoe-2.svg",
+        price: 9499,      
+        desc: ' White  $ Pink',
+        size: 39
+        
+      },
+      {
+        title: "Nike Basketball Shoes",
+        href: "/shoe-3.svg",
+        price: 9499,
+        desc: 'Orange',
+        size: 41
+        
+      },
+    
+  ];
+
