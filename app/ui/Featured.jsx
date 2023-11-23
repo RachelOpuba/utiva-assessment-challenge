@@ -1,6 +1,7 @@
 import { FiPlus } from "react-icons/fi";
 import Image from "next/image";
 import ShopBtn from "./ShopBtn";
+import Link from "next/link";
 
 
 const Featured = () => {
@@ -9,7 +10,7 @@ const Featured = () => {
     <div className="px-4 md:px-10 xl:px-[100px]  pt-10">
         <div className="flex justify-between items-center py-2"> 
             <p className="font-semibold  text-[20px] md:text-[28px] text-[#101928]">Featured Collections</p>
-            <p className="flex text-[#EB5017] text-sm font-semibold gap-1 md:gap-2"><span>View all</span> <FiPlus className="text-xl"/></p>
+            <p className="flex text-[#EB5017] text-sm font-semibold gap-1 md:gap-2"><Link href={'/allproducts'}>View all</Link> <FiPlus className="text-xl"/></p>
         </div>
 
         <div className="h-[900px]  md:h-[400px] xl:h-[532px] flex flex-col md:flex-row gap-8 border">
@@ -24,7 +25,7 @@ const Featured = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between">
                     <p className=" text-3xl xl:text-4xl font-semibold text-[#FFFFFF] max-w-full md:max-w-[80%] lg:max-w-[60%] mb-4 lg:mb-0">Kiddies Korean Summer Collection</p>
-                    <ShopBtn/>
+                   <Link href={'/allproducts'}><ShopBtn/></Link> 
                 </div>
 
             </div>

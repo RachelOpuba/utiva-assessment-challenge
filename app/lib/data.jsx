@@ -49,3 +49,92 @@ export const CompanyArr = [
       },
     
   ];
+
+  export const ProductArr2 = [
+    {
+      title: "Court Heels",
+      href: "/shoe-1.svg",
+      price: 9499,
+      desc: 'Red Silettos',
+      id:1,
+    },
+    {
+        title: "Court Heels",
+        href: "/shoe-2.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:2,
+      },
+      {
+        title: "Court Heels",
+        href: "/shoe-3.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:3,
+      },
+    {
+      title: "Court Heels",
+      href: "/shoe-1.svg",
+      price: 9499,
+      desc: 'Red Silettos',
+      id:4,
+    },
+    {
+        title: "Court Heels",
+        href: "/shoe-2.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:5,
+      },
+      {
+        title: "Court Heels",
+        href: "/shoe-3.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:6,
+      },
+    {
+      title: "Court Heels",
+      href: "/shoe-1.svg",
+      price: 9499,
+      desc: 'Red Silettos',
+      id:7,
+    },
+    {
+        title: "Court Heels",
+        href: "/shoe-2.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:8,
+      },
+      {
+        title: "Court Heels",
+        href: "/shoe-3.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:9,
+      },
+    {
+      title: "Court Heels",
+      href: "/shoe-1.svg",
+      price: 9499,
+      desc: 'Red Silettos',
+      id:10,
+    },
+    {
+        title: "Court Heels",
+        href: "/shoe-2.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:11,
+      },
+      {
+        title: "Court Heels",
+        href: "/shoe-3.svg",
+        price: 9499,
+        desc: 'Red Silettos',
+        id:12,
+      },
+    
+  ];
+
