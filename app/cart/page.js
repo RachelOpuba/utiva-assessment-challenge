@@ -6,7 +6,7 @@ import { AiOutlineMinus } from "react-icons/ai";
 import Link from "next/link";
 
 
-const page = () => {
+const Page = () => {
 
   return (
     <>
@@ -57,4 +57,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

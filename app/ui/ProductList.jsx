@@ -9,8 +9,8 @@ const ProductList = () => {
     <>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  gap-4 md:gap-8  lg:gap-4 ">
                 {ProductArr2.map((shoe, index)=>(
-                    <Link href={`allproducts/${shoe.id}`}>
-                    <div key={index} className="pb-6 md:mb-8 lg:pb-0">
+                    <Link href={`allproducts/${shoe.id}`} key={index}>
+                    <div  className="pb-6 md:mb-8 lg:pb-0">
                         <div>
                             <Image src={shoe.href} height={260} width={296} alt="shoe" className="w-full lg:w-[296px"/>
                         </div>

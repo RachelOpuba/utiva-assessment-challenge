@@ -13,7 +13,7 @@ import { FiPlus } from "react-icons/fi";
 
 // cont sizes = []
 
-const page = ({params}) => {
+const Page = ({params}) => {
     const [selectedSize, setSelectedSize] = useState('37');
 
     const productid = params.productId
@@ -42,7 +42,7 @@ const page = ({params}) => {
                                     </div>
                                 </div>
                                 <div className="mt-[-30px] md:mt-0">
-                                    <h2 className="text-[#101928] font-semibold text-[32px]">Nike Blazer Low ‘77 Vintage</h2>
+                                    <h2 className="text-[#101928] font-semibold text-[32px]">Nike Blazer Low 77 Vintage</h2>
                                     <p className="text-[#667185] text-sm py-2">Praised by the streets for its classic simplicity and comfort, the Nike Blazer Low '77 Vintage returns with its low-profile style and heritage b-ball looks.</p>
                                     <span className="flex items-center gap-4"><StarRating/> <span className="text-sm font-medium text-[#344054]">(121)</span></span>
                                     <p className="text-2xl text-[#101928] font-bold tracking-tight"><span>₦</span> <span>19,000.0</span></p>
@@ -132,4 +132,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page
