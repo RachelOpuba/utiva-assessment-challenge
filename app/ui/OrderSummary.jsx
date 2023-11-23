@@ -3,7 +3,7 @@ import Image from "next/image"
 const OrderSummary = () => {
   return (
     <>
-        <div className="w-full max-w-[760px] mt-10 p-8 rounded-[10px] border border-[#E4E7EC">
+        <div className="w-full max-w-[760px] mt-10 py-8 px-2 md:px-8  rounded-[10px] border border-[#E4E7EC">
                 <div>
                     <div>
                     <div className='flex justify-between items-center  mb-6'>

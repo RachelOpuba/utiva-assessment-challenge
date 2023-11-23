@@ -26,7 +26,7 @@ const DeliveryInfo = () => {
       };    
   return (
     <>
-        <div className="w-full max-w-[760px] mt-10 p-8 rounded-[10px] border border-[#E4E7EC mt-4 mb-10">
+        <div className="w-full max-w-[760px] mt-10 py-8 px-2 md:px-8  rounded-[10px] border border-[#E4E7EC mt-4 mb-10">
             <div className='flex flex-col'>
                 <p className='text-[#101928] text-2xl font-semibold'>Delivery Information</p>
 

@@ -95,7 +95,7 @@ const Page = ({params}) => {
 
                                                  <div className=" flex flex-col md:flex-row items-center md:items-start gap-6 py-6">
                                                     <Link href="/cart" className="text-[#FFFFFF] bg-[#EB5017] w-[194px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Buy Now</Link>
-                                                    <Link href="/" className=" text-[#F56630] border-[#EB5017] w-[194px] border-[1.5px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Add to Cart</Link>
+                                                    <Link href="" className=" text-[#F56630] border-[#EB5017] w-[194px] border-[1.5px] py-4 px-6 flex justify-center items-center font-semibold rounded-full">Add to Cart</Link>
                                                 </div>
 
                                                 <div className="w-full flex gap-6 rounded-[10px] p-[28px] mt-2 border">

@@ -68,7 +68,7 @@ export default function  Navbar () {
                 <div className=" hidden md:flex flex-col items-center justify-between h-full py-6">
                     <Image src={'/heart.svg'} height={18} width={18} alt="Heart"/>
                     <div className="flex gap-2 justify-center items-center">
-                        <Link href="/" className="font-semibold text-[#101928]">All Categories</Link>
+                        <Link href="/allproducts" className="font-semibold text-[#101928]">All Categories</Link>
                         <Image src={'/red-arrow-down.svg'} height={15} width={15} alt="Arrow Doen"/>
                     </div>
 
