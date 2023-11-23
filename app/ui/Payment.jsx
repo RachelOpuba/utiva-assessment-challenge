@@ -20,7 +20,7 @@ const Payment = () => {
 
   return (
     <>
-        <div className=' w-full max-w-[424px] py-8 px-2 md:px-8 border min-h-screen  rounded-[10px] mt-6 md:mt-14 mb-[61px]'>
+        <div className=' w-full  max-w-[424px] md:max-w-full lg:max-w-[424px] py-8 px-2 md:px-8 border min-h-screen  rounded-[10px] mt-6 md:mt-14 mb-[61px]'>
             <div className='flex flex-col'>
                 <p className='text-[#101928] text-2xl font-semibold'>Payment Information</p>
 

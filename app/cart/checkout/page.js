@@ -9,7 +9,7 @@ import Payment from "@/app/ui/Payment"
 const Page = () => {
   return (
     <div>
-        <div className="px-4 md:px-10 xl:px-[100px] mt-10 flex flex-col md:flex-row">
+        <div className="px-4 md:px-10 xl:px-[100px] mt-10 flex flex-col lg:flex-row">
             <div className="flex-1">
             <div className="flex text-sm ">           
                 <div className="flex">
